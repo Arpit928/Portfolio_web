@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+     background-color: rgb(183, 180, 180); 
+    width:430px;
+    height: 120vh;
+    font-family: 'Nunito', sans-serif;
+
+}
+.sidebar nav{
+    
+    padding: 20px;
+}
+.sidebar nav li{
+    font-size: 20px;
+    list-style: none;
+    padding: 20px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+  /* background-color: yellow; */
+  width:85vw;
+}
+.infocontainer{
+    /* background-color: rgb(255, 192, 230); */
+    height:58vh;
+    width:80vw;
+    margin: 140px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 45px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.name{
+ font-size: 35px;
+ font-weight: bold;
+ font-family: 'Nunito', sans-serif;
+
+}
+.about{
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+    padding-bottom: 20px;
+
+}
+.btn{
+    margin-top: 30px;
+}
+.btn{
+    padding: 9px 10px;
+    border-radius: 22px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin:0 7px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color:dodgerblue;
+
+}
+.devpic img{
+    width:250px;
+    height:58vh;
+}
+
+.container{
+    display: flex;
+}
+.contactform{
+    font-family: 'Nunito', sans-serif;
+    padding: 0 30px;
+    padding-top: 130px;
+    
+
+   
+}
+.contactform form h1{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 30px;
+    color:rgb(195, 0, 255);
+    text-align: center;
+    padding: 0px;
+}
+.contactform form div{
+    padding: 10px 0;
+}
+#emailHelp{
+    font-size: 12px;
+    color: blue;
+    margin: 0 5px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width:230px;
+    border-radius: 12px;
+}
+.btn-primary{
+    padding: 5px 6px;
+    border-radius: 18px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin:0 7px;
+    cursor: pointer;
+}
+.btn-primary a{
+    text-decoration: none;
+    
+}
+.btn-primary:hover{
+    background-color: white;
+    color:dodgerblue;
+
+}
+ h1{
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+.blogitems{
+   margin:20px;
+   font-family: 'Nunito', sans-serif;
+}
+.blogitems h3{
+    margin:10px;
+    margin:5px;
+    font-family: 'Source Code Pro', monospace;
+}
+ p{
+    margin:5px;
+    font-family: 'Source Code Pro', monospace;
+}
+.intro h2{
+    font-family: 'Nunito', sans-serif;
+    margin:12px;
+}
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin:10px;
+}
+.web{
+    padding: 20px;
+    width:280px;
+    justify-content: space-around;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width:265px;
+    height:7px;
+    background-color: red;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+.skillitem{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+.hundred{
+    width:265px;
+}
+.fifty{
+    width:132px;
+}
+.T5{
+    width:65px;
+}
+.S5{
+    width:200px;
+}
